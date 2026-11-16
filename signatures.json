@@ -1,0 +1,684 @@
+[
+ {
+  "match": [
+   "attn.tv"
+  ],
+  "app": "Attentive",
+  "vendor": "Attentive Mobile",
+  "replacement": "app_embed_and_pixel"
+ },
+ {
+  "match": [
+   "govx.com"
+  ],
+  "app": "GovX ID",
+  "vendor": "GovX",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "usefomo.com"
+  ],
+  "app": "Fomo",
+  "vendor": "Fomo",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "riskified.com"
+  ],
+  "app": "Riskified",
+  "vendor": "Riskified",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "getangler.ai"
+  ],
+  "app": "Angler AI",
+  "vendor": "Angler AI",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "cordial-app"
+  ],
+  "app": "Cordial",
+  "vendor": "Cordial",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "botnot.io"
+  ],
+  "app": "Yofi",
+  "vendor": "Botnot",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "media.9gtb.com"
+  ],
+  "app": "Gorgias Convert",
+  "vendor": "Gorgias Inc.",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "pc-quiz.s3.us-east-2.amazonaws.com"
+  ],
+  "app": "Quiz Kit: Product Quiz Maker",
+  "vendor": "Presidio Creative",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "pdq-scripts.pdqprod.link"
+  ],
+  "app": "PrettyDamnQuick",
+  "vendor": "PDQ Logistics Ltd.",
+  "replacement": "web_pixel",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "bundle.dyn-rev.app"
+  ],
+  "app": "Gorgias Convert",
+  "vendor": "Gorgias Inc.",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.instant.one"
+  ],
+  "app": "Instant",
+  "vendor": "Instant",
+  "replacement": "web_pixel",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "customer-first-focus.b-cdn.net"
+  ],
+  "app": "Persistent Cart - Sync Devices",
+  "vendor": "Customer First Focus",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "gdprcdn.b-cdn.net"
+  ],
+  "app": "Consentmo GDPR Compliance",
+  "vendor": "Consentmo",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.nfcube.com"
+  ],
+  "app": "Instafeed - Instagram Feed",
+  "vendor": "Mintt Studio",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "shy.elfsight.com"
+  ],
+  "app": "Elfsight widgets",
+  "vendor": "Elfsight",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.corso.com"
+  ],
+  "app": "Corso Checkout Plus / shipping protection",
+  "vendor": "Corso",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.usemonocle.com"
+  ],
+  "app": "Monocle: AI for Retention",
+  "vendor": "OuterSignal Inc.",
+  "replacement": "web_pixel",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "assets.dailykarma.io"
+  ],
+  "app": "Shop for Good Donation App",
+  "vendor": "DailyKarma",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "cdn.shipinsure.io"
+  ],
+  "app": "ShipInsure Shipping Protection",
+  "vendor": "ShipInsure",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "app.octaneai.com"
+  ],
+  "app": "Octane AI: Advanced Quiz Maker",
+  "vendor": "Octane AI",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.richpanel.com"
+  ],
+  "app": "Richpanel: AI Customer Support",
+  "vendor": "Richpanel Inc",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "social-login.oxiapps.com"
+  ],
+  "app": "Oxi Social Login",
+  "vendor": "Oxi Apps",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "cdn-app.cart-bot.net"
+  ],
+  "app": "CartBot: Gift with purchase",
+  "vendor": "Bundler.app",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "assets.smartwishlist.webmarked.net"
+  ],
+  "app": "Smart Wishlist",
+  "vendor": "Webmarked",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "formbuilder.hulkapps.com"
+  ],
+  "app": "Hulk Contact Form Builder",
+  "vendor": "HulkApps",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.verifypass.com"
+  ],
+  "app": "VerifyPass Community ID",
+  "vendor": "VerifyPass",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "scripts.juniphq.com"
+  ],
+  "app": "Junip Product Reviews",
+  "vendor": "Junip Inc.",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "po.kaktusapp.com"
+  ],
+  "app": "PreOrder App+Partial Payment K",
+  "vendor": "Kaktus",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "wrapin.prezenapps.com"
+  ],
+  "app": "Wrapin - Gift Wrap & Options",
+  "vendor": "Prezen Apps",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "orderstatus.w3apps.co"
+  ],
+  "app": "W3 Custom Order Status",
+  "vendor": "W3trends",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "stack-discounts.merchantyard.com"
+  ],
+  "app": "DiscountYard - Stack Discounts",
+  "vendor": "MerchantYard",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "cdn.hextom.com"
+  ],
+  "app": "Hextom: Countdown Timer Bar",
+  "vendor": "Hextom",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "seo.apps.avada.io"
+  ],
+  "app": "Avada AI SEO Image Optimizer",
+  "vendor": "Avada",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "widget.ecocart.tools"
+  ],
+  "app": "EcoCart Green Protection",
+  "vendor": "EcoCart",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.loginhood.io"
+  ],
+  "app": "e-Privacy by Loginhood",
+  "vendor": "Loginhood / Invisit, Inc",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "app.kiwisizing.com"
+  ],
+  "app": "Kiwi Size Chart & Recommender",
+  "vendor": "Staytuned",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "hfta-app.herokuapp.com"
+  ],
+  "app": "Favi: Favicon Tab Animation",
+  "vendor": "Effective Apps / Effectify",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "design-packs.herokuapp.com"
+  ],
+  "app": "Design Packs",
+  "vendor": "Design Packs Inc",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "tr.attribuly.com"
+  ],
+  "app": "Attribuly",
+  "vendor": "Attribuly Inc.",
+  "replacement": "web_pixel",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "scripts.devotion.club"
+  ],
+  "app": "Devotion",
+  "vendor": "Devotion Industries Inc.",
+  "replacement": "app_embed",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "api.socialsnowball.io"
+  ],
+  "app": "Snowball: Affiliate Marketing",
+  "vendor": "Social Snowball",
+  "replacement": "web_pixel",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "superfiliate-cdn.com"
+  ],
+  "app": "Superfiliate",
+  "vendor": "Superfiliate Inc.",
+  "replacement": "web_pixel",
+  "embed_shipped": false
+ },
+ {
+  "match": [
+   "backinstock.useamp.com"
+  ],
+  "app": "Amp Back in Stock | PreOrder",
+  "vendor": "Amp",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "str.rise-ai.com"
+  ],
+  "app": "Rise Gift Cards & Store Credit",
+  "vendor": "Rise.ai",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "cdn.pushowl.com"
+  ],
+  "app": "Brevo PushOwl",
+  "vendor": "PushOwl",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "www.powr.io"
+  ],
+  "app": "POWR",
+  "vendor": "POWR",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "shopify-extension.getredo.com"
+  ],
+  "app": "Redo",
+  "vendor": "Redo Tech, Inc",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "widgets.automizely.com"
+  ],
+  "app": "AfterShip",
+  "vendor": "AfterShip",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "static-resources.botnot.io"
+  ],
+  "app": "Yofi",
+  "vendor": "BotNot, Inc. / Yofi AI",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "awin-shopify-integration-code.js"
+  ],
+  "app": "Awin",
+  "vendor": "Awin Ltd",
+  "replacement": "web_pixel",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "strn.rise-ai.com"
+  ],
+  "app": "Rise Gift Cards & Store Credit",
+  "vendor": "Rise.ai",
+  "replacement": "app_embed",
+  "embed_shipped": true
+ },
+ {
+  "match": [
+   "static.klaviyo.com"
+  ],
+  "app": "Klaviyo",
+  "vendor": "Klaviyo",
+  "replacement": "app_embed_and_pixel"
+ },
+ {
+  "match": [
+   "config.gorgias.chat"
+  ],
+  "app": "Gorgias chat",
+  "vendor": "Gorgias",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "cdn-loyalty.yotpo.com",
+   "staticw2.yotpo.com",
+   "cdn-widgetsrepository.yotpo.com"
+  ],
+  "app": "Yotpo",
+  "vendor": "Yotpo",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "global-e.com"
+  ],
+  "app": "Global-e",
+  "vendor": "Global-e",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "rebuyengine.com"
+  ],
+  "app": "Rebuy",
+  "vendor": "Rebuy",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "rechargecdn.com"
+  ],
+  "app": "Recharge",
+  "vendor": "Recharge",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "nofraud.com"
+  ],
+  "app": "NoFraud",
+  "vendor": "NoFraud",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "signifyd.com"
+  ],
+  "app": "Signifyd",
+  "vendor": "Signifyd",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "intg.snapchat.com"
+  ],
+  "app": "Snapchat Ads",
+  "vendor": "Snap",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "postscript.io"
+  ],
+  "app": "Postscript",
+  "vendor": "Postscript",
+  "replacement": "app_embed_and_pixel"
+ },
+ {
+  "match": [
+   "shareasale.com"
+  ],
+  "app": "ShareASale",
+  "vendor": "Awin",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "rakuten.com",
+   "rakutenadvertising.io"
+  ],
+  "app": "Rakuten Advertising",
+  "vendor": "Rakuten",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "bazaarvoice.com"
+  ],
+  "app": "Bazaarvoice",
+  "vendor": "Bazaarvoice",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "app.retention.com"
+  ],
+  "app": "Retention.com",
+  "vendor": "Retention.com",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "pepperjam.com"
+  ],
+  "app": "Pepperjam",
+  "vendor": "Partnerize",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "trustpilot.com"
+  ],
+  "app": "Trustpilot",
+  "vendor": "Trustpilot",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "stamped.io"
+  ],
+  "app": "Stamped",
+  "vendor": "Stamped",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "smile.io"
+  ],
+  "app": "Smile",
+  "vendor": "Smile.io",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "weglot.com"
+  ],
+  "app": "Weglot",
+  "vendor": "Weglot",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "route.com"
+  ],
+  "app": "Route",
+  "vendor": "Route",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "mailchimp.com",
+   "chimpstatic.com"
+  ],
+  "app": "Mailchimp",
+  "vendor": "Intuit Mailchimp",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "northbeam.io"
+  ],
+  "app": "Northbeam",
+  "vendor": "Northbeam",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "luckyorange.com"
+  ],
+  "app": "Lucky Orange",
+  "vendor": "Lucky Orange",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "recart.com"
+  ],
+  "app": "Recart",
+  "vendor": "Recart",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "refersion.com"
+  ],
+  "app": "Refersion",
+  "vendor": "Refersion",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "/assets/loy_"
+  ],
+  "app": "Theme-asset script (likely custom app or legacy loyalty app)",
+  "vendor": null,
+  "replacement": "theme_code"
+ },
+ {
+  "match": [
+   "ywxi.net",
+   "trustedsite.com"
+  ],
+  "app": "TrustedSite",
+  "vendor": "TrustedSite",
+  "replacement": "app_embed"
+ }
+]

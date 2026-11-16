@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; base-uri 'none'">
+<title>Embedport · Shopify script tags stop running March 1, 2027</title>
+<meta name="description" content="Free check: which of your Shopify store's script tags stop running on March 1, 2027, and what replaces each one. Fixed-price audits, store migrations and app ports to theme app extensions and web pixels.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="./">Embedport</a>
+  <nav><a href="#check">Free check</a><a href="#prices">Prices</a><a href="#apps">For app developers</a><a href="#faq">FAQ</a></nav>
+</header>
+
+<main>
+<section class="wrap hero">
+  <p class="eyebrow">Shopify deadline · <span id="days">105</span> days left</p>
+  <h1>On March 1, 2027, Shopify stops running script tags on every storefront.</h1>
+  <p class="lede">Whatever a script tag loads stops working that day: review widgets, loyalty bars, back-in-stock forms, affiliate tracking, fraud beacons. Apps can't create or update script tags any more (since October 1, 2026), and pinning an older API version doesn't help. Shopify isn't showing merchants a warning banner.</p>
+  <p class="stat"><strong>72%</strong> of the 134 Shopify brand storefronts we checked on November 15, 2026 still load code through script tags. The median store has <strong>6</strong>, and one has 15.</p>
+  <p><a class="btn" href="#check">Check your store free</a> <a class="btn ghost" href="#prices">See fixed prices</a></p>
+</section>
+
+<section class="wrap" id="check">
+  <h2>Free check: which of your script tags stop running</h2>
+  <ol class="steps">
+    <li>Open your store's homepage in a desktop browser and press <kbd>Ctrl</kbd>+<kbd>U</kbd> (<kbd>⌥</kbd><kbd>⌘</kbd><kbd>U</kbd> on a Mac) to view the page source.</li>
+    <li>Select all, copy, and paste it below.</li>
+  </ol>
+  <p class="small">The check runs entirely in your browser. Nothing is uploaded, and this page's Content-Security-Policy blocks any request to another site.</p>
+  <textarea id="src" rows="8" placeholder="Paste the page source here (it starts with &lt;!doctype html&gt;)" spellcheck="false"></textarea>
+  <p><button class="btn" id="run" type="button">Check script tags</button></p>
+  <div id="out" aria-live="polite"></div>
+  <p class="small">Script tags scoped only to the Order status page don't show up in storefront page source. If your apps add code there, ask for the audit. Prefer a command line? The same check is a single Python file: <code>python3 scripttag_check.py scan yourstore.com</code> (<a href="#cli">details</a>).</p>
+</section>
+
+<section class="wrap" id="prices">
+  <h2>Fixed prices</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Script tag audit</h3>
+      <p class="price">$149</p>
+      <ul>
+        <li>Every script tag on your store, including Order status scope, matched to the app that owns it</li>
+        <li>For each one: has the vendor shipped an app embed or web pixel, does it still need switching on, or is there no replacement (custom apps)?</li>
+        <li>A ranked action list with the theme editor steps</li>
+        <li>Delivered in 2 business days</li>
+      </ul>
+      <p class="small">Credited in full if you order the migration within 30 days.</p>
+    </article>
+    <article class="card feature">
+      <h3>Store migration</h3>
+      <p class="price">$490</p>
+      <ul>
+        <li>The audit, then the fixes, up to 6 script tags (more at $60 each)</li>
+        <li>Switch on vendor app embeds and confirm each one loads exactly once</li>
+        <li>Move scripts from admin-created custom apps into theme code, which Shopify recommends because those apps can't use extensions</li>
+        <li>All changes made and tested on a duplicate theme first, with a before/after report you can check</li>
+        <li>Script tag records cleaned up only after each replacement is confirmed running</li>
+      </ul>
+      <p class="small">You give staff access to themes and apps. You publish the tested theme yourself, or we do with your go-ahead.</p>
+    </article>
+    <article class="card" id="apps">
+      <h3>App port, for app developers</h3>
+      <p class="price">$1,250</p>
+      <ul>
+        <li>Your script tag moved to a theme app extension <strong>app embed block</strong>, plus a <strong>web pixel</strong> if it also tracks events</li>
+        <li>Delivered as a pull request to your repo, with settings schema, a deep link that activates the embed, and merchant help text</li>
+        <li>Tested on a development store with a vintage theme and an Online Store 2.0 theme, side by side with your script tag so it never loads twice</li>
+        <li>A migration plan for existing installs: detect who still relies on the script tag, nudge them to activate, delete the script tag once the embed is live</li>
+      </ul>
+      <p class="small">Order status page code (customer account UI extension) is quoted separately.</p>
+    </article>
+  </div>
+  <p><strong>Agencies:</strong> 25% off list, white-label (your name on the report, or none). Your first client audit is free.</p>
+  <p>Payment is due on delivery for the audit, and half up front for migrations and ports. If we can't do what we quoted, you don't pay.</p>
+</section>
+
+<section class="wrap order" id="order">
+  <h2>Order or ask a question</h2>
+  <p>Email <a id="mail" href="mailto:frankjgilroy@gmail.com?subject=Embedport%20order">frankjgilroy@gmail.com</a> with your store URL and the package you want. If you ran the free check, the <em>Copy summary</em> button gives you text to paste in. We reply within one business day with a confirmation and a payment link.</p>
+</section>
+
+<section class="wrap" id="faq">
+  <h2>FAQ</h2>
+  <details><summary>What exactly changes on March 1, 2027?</summary><p>Shopify stops injecting script tags into storefront pages, so anything that depends on them stops working for your store. Since October 1, 2026, apps can't create or update script tags. They can still list and delete them. Sources: <a href="https://shopify.dev/changelog/posts/online-store-script-tags-deprecation">Shopify developer changelog</a>, <a href="https://shopify.dev/docs/apps/build/online-store/script-tag-deprecation/storefront">Storefront script tags guide</a>.</p></details>
+  <details><summary>My app vendor says they've already moved to an app embed. Am I fine?</summary><p>Maybe. The embed usually has to be switched on in your theme editor (Online Store → Themes → Customize → App embeds), and an old script tag record can stay on your store alongside it. Until March 1, that can load the same code twice. After March 1, an embed that was never switched on means the feature is gone. The free check shows what still loads through script tags today.</p></details>
+  <details><summary>What about the Order status page?</summary><p>That deadline came earlier: script tags already stopped running there for Plus stores, and Shopify's guide points to customer account UI extensions as the replacement. The audit covers it.</p></details>
+  <details><summary>Is this the same as "Shopify Scripts"?</summary><p>No. Shopify Scripts (the Ruby checkout scripts replaced by Functions) is a separate retirement. This is about the ScriptTag API apps use to add JavaScript to storefronts.</p></details>
+  <details><summary>Who are you?</summary><p>Embedport is run by Frank Gilroy. We are not affiliated with or endorsed by Shopify. Shopify is a trademark of Shopify Inc.</p></details>
+</section>
+
+<section class="wrap" id="cli">
+  <h2>Command-line checker</h2>
+  <p><code>scripttag_check.py</code> is one Python 3 file with no dependencies. <code>scan</code> reads public storefront pages. <code>api --shop x.myshopify.com</code> lists your own app's script tags with the Admin API, including display scope, since Shopify returns only the calling app's script tags. Download <a href="scripttag_check.py" download>scripttag_check.py</a> and <a href="signatures.json" download>signatures.json</a> into the same folder.</p>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>Embedport · 147 W Orvilla Rd, Hatfield, PA 19505, USA · <a href="terms.html">Terms</a></p>
+  <p class="small">Figures: homepages of 134 Shopify storefronts (well-known direct-to-consumer brands), fetched November 15, 2026, counting the URLs in Shopify's script tag loader.</p>
+</footer>
+<script src="check.js"></script>
+</body>
+</html>
