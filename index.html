@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; base-uri 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self'; img-src 'self' data: https://sendwell.goatcounter.com; connect-src 'self' https://sendwell.goatcounter.com; form-action 'none'; base-uri 'none'">
 <meta name="google-site-verification" content="wIoRvWQuJwQ3w6e_SeTezhoOGrqvPZBTEzmqTBwWPlQ">
 <title>Embedport · Shopify script tags stop running March 1, 2027</title>
 <meta name="description" content="Free check: which of your Shopify store's script tags stop running on March 1, 2027, and what replaces each one. Fixed-price audits, store migrations and app ports to theme app extensions and web pixels.">
@@ -31,7 +31,7 @@
     <li>Open your store's homepage in a desktop browser and press <kbd>Ctrl</kbd>+<kbd>U</kbd> (<kbd>⌥</kbd><kbd>⌘</kbd><kbd>U</kbd> on a Mac) to view the page source.</li>
     <li>Select all, copy, and paste it below.</li>
   </ol>
-  <p class="small">The check runs entirely in your browser. Nothing is uploaded, and this page's Content-Security-Policy blocks any request to another site.</p>
+  <p class="small">The check runs entirely in your browser. Nothing you paste is uploaded or sent anywhere. The page only counts visits with GoatCounter (no cookies, no personal data), and its Content-Security-Policy allows no other requests.</p>
   <textarea id="src" rows="8" placeholder="Paste the page source here (it starts with &lt;!doctype html&gt;)" spellcheck="false"></textarea>
   <p><button class="btn" id="run" type="button">Check script tags</button></p>
   <div id="out" aria-live="polite"></div>
@@ -106,5 +106,6 @@
   <p class="small">Figures: homepages of 134 Shopify storefronts (well-known direct-to-consumer brands), fetched November 15, 2026, counting the URLs in Shopify's script tag loader.</p>
 </footer>
 <script src="check.js"></script>
+<script src="gc.js"></script><script data-goatcounter="https://sendwell.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

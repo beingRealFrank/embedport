@@ -52,6 +52,7 @@
 
   document.getElementById('run').addEventListener('click', function () {
     var html = document.getElementById('src').value;
+    if (window.goatcounter && window.goatcounter.count) { window.goatcounter.count({ path: 'tool-run', title: 'Check script tags', event: true }); }
     var out = document.getElementById('out');
     out.textContent = '';
     if (!html.trim()) { out.appendChild(el('p', 'warn', 'Paste the page source first.')); return; }
