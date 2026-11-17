@@ -57,7 +57,8 @@
  },
  {
   "match": [
-   "media.9gtb.com"
+   "media.9gtb.com",
+   "contact.gorgias.help"
   ],
   "app": "Gorgias Convert",
   "vendor": "Gorgias Inc.",
@@ -237,7 +238,8 @@
  },
  {
   "match": [
-   "scripts.juniphq.com"
+   "scripts.juniphq.com",
+   "widgets.juniphq.com"
   ],
   "app": "Junip Product Reviews",
   "vendor": "Junip Inc.",
@@ -679,6 +681,174 @@
   ],
   "app": "TrustedSite",
   "vendor": "TrustedSite",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "cdn.bogos.io"
+  ],
+  "app": "BOGOS: Buy One Get One Free",
+  "vendor": "BOGOS",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "covet.pics"
+  ],
+  "app": "Covet.pics",
+  "vendor": "Covet.pics",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "zonos.com"
+  ],
+  "app": "Zonos Hello",
+  "vendor": "Zonos",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "searchanise"
+  ],
+  "app": "Searchanise",
+  "vendor": "Searchanise",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "shoppinggives.com"
+  ],
+  "app": "Shopping Gives",
+  "vendor": "Shopping Gives",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "connect.nosto.com"
+  ],
+  "app": "Nosto",
+  "vendor": "Nosto",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "loox.io"
+  ],
+  "app": "Loox Reviews",
+  "vendor": "Loox",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "thewishlist.io"
+  ],
+  "app": "Wishlist app",
+  "vendor": "The Wishlist",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "api.kount.com"
+  ],
+  "app": "Kount",
+  "vendor": "Kount (Equifax)",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "noibu.com"
+  ],
+  "app": "Noibu",
+  "vendor": "Noibu",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "goaffpro.com"
+  ],
+  "app": "GoAffPro",
+  "vendor": "GoAffPro",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "hubapi.com"
+  ],
+  "app": "HubSpot",
+  "vendor": "HubSpot",
+  "replacement": "app_embed_and_pixel"
+ },
+ {
+  "match": [
+   "kustomerapp.com"
+  ],
+  "app": "Kustomer",
+  "vendor": "Kustomer",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "electricsms.com"
+  ],
+  "app": "Electric SMS",
+  "vendor": "Electric SMS",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "curalate.com"
+  ],
+  "app": "Curalate (Later)",
+  "vendor": "Later",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "bluecore.com"
+  ],
+  "app": "Bluecore",
+  "vendor": "Bluecore",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "adroll.com"
+  ],
+  "app": "AdRoll",
+  "vendor": "AdRoll",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "builder.io"
+  ],
+  "app": "Builder.io",
+  "vendor": "Builder.io",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "blackcrow.ai"
+  ],
+  "app": "BlackCrow AI",
+  "vendor": "BlackCrow AI",
+  "replacement": "web_pixel"
+ },
+ {
+  "match": [
+   "revenuehunt.com"
+  ],
+  "app": "Product Recommendation Quiz",
+  "vendor": "RevenueHunt",
+  "replacement": "app_embed"
+ },
+ {
+  "match": [
+   "onetext.com"
+  ],
+  "app": "OneText",
+  "vendor": "OneText",
   "replacement": "app_embed"
  }
 ]
